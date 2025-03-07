@@ -27,6 +27,7 @@ Many of these tools are prebuilt into Kali, and will not need to be installed.
   >
   > Subdomain/VHost discovery: `$ gobuster vhost --append-domain http://site.htb --wordlist /usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt`
 - [WhatWeb](https://github.com/urbanadventurer/WhatWeb) - Web app scanner, useful for finding vulnerable versions of software hosting the webapp.
+- [FeroxBuster](https://github.com/epi052/feroxbuster) - Quick recursive directory fuzzer.
 
 ## Web App
 - [Burp Suite](https://portswigger.net/burp) - Web app proxy and repeater for easy introspection and modification of HTTP requests.
@@ -34,6 +35,7 @@ Many of these tools are prebuilt into Kali, and will not need to be installed.
 - [XSS Payload List](https://github.com/payloadbox/xss-payload-list) - Useful list of common XSS payloads.
 - [MITMProxy](https://mitmproxy.org/) - Easy HTTP proxy for port forwarding a localhost webserver.
 - [Reverse Shell Generator](https://www.revshells.com/) - Easy way to get a shell made, has many options for style and encoding.
+- [Git Dumper](https://github.com/arthaud/git-dumper) - Easily dump git repos from the web
 
 ## SQLi
 - [SQLMap](https://sqlmap.org/) - Aggressive SQLi finder. Do not use this outside of CTF/OSCP/HTB.
@@ -68,3 +70,9 @@ Many of these tools are prebuilt into Kali, and will not need to be installed.
 ### Windows
 - [WinPEAS](https://github.com/peass-ng/PEASS-ng/blob/master/winPEAS/winPEASexe/README.md) - Windows privesc automation script. Easily find curious things to exploit.
 - [LOLBas](https://lolbas-project.github.io/) - Live off the land with local Windows scripts to get priveleged.
+
+## Reverse Engineering
+- [jd-gui](https://java-decompiler.github.io/) - Java decompilation. Perfect for .class files.
+- [dnSpy](https://github.com/dnSpy/dnSpy) - Windows dotnet, c# decompilation tool. Nice for DLL files too.
+- [Ghidra](https://ghidra-sre.org/) - NSA made disassembly tool. Works well for C, but has a hard time with Rust.
+- [Binary Ninja](https://binary.ninja/) - Web based disassembler, sometimes can get results that are hard to find in Ghidra. Much better for rust.
