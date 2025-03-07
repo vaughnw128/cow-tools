@@ -23,7 +23,7 @@ Many of these tools are prebuilt into Kali, and will not need to be installed.
   >
   > All ports: `$ nmap -sS 10.0.0.0 -p-`
 - [Gobuster](https://github.com/OJ/gobuster) - Web app fuzzer, I get a crazy amount of use out of this one. Great for subdomain and dir enumeration.
-  > Directory discovery: `$ gobuster dir http://site.htb --wordlist /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt`
+  > Directory discovery: `$ gobuster dir --url http://site.htb --wordlist /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt`
   >
   > Subdomain/VHost discovery: `$ gobuster vhost --append-domain http://site.htb --wordlist /usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt`
 - [WhatWeb](https://github.com/urbanadventurer/WhatWeb) - Web app scanner, useful for finding vulnerable versions of software hosting the webapp.
