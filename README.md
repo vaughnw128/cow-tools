@@ -35,6 +35,7 @@ Many of these tools are prebuilt into Kali, and will not need to be installed.
 - [JWT.io](https://jwt.io) - JWT token parsing and decoding, great for finding token injection parameters or low RSA N values to crack.
 - [XSS Payload List](https://github.com/payloadbox/xss-payload-list) - Useful list of common XSS payloads.
 - [MITMProxy](https://mitmproxy.org/) - Easy HTTP proxy for port forwarding a localhost webserver.
+  > Simple reverse http proxy: `$ ./mitmproxy -p 9000 --mode reverse:http://localhost:8500`
 - [Reverse Shell Generator](https://www.revshells.com/) - Easy way to get a shell made, has many options for style and encoding.
 - [Git Dumper](https://github.com/arthaud/git-dumper) - Easily dump git repos from the web
 
