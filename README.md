@@ -15,6 +15,7 @@ Many of these tools are prebuilt into Kali, and will not need to be installed.
 - [IppSec](https://www.youtube.com/@ippsec) - Great Youtube channel with HTB writeups. Nice to look at as retros after box completion.
 - [Exploit DB](https://exploit-db.com) - List of exploits and PoCs, perfect for when you find a vulnerable service.
 - [OWASP Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/) - Great resource for random cheatsheets on various services/technologies.
+- [Interesting OSCP guide](https://sushant747.gitbooks.io/total-oscp-guide/content/webshell.html) - Someone's Gitbook that seems pretty useful!
 
 ## Recon & Discovery
 - [Nmap](https://nmap.org/) - A classic and mainstay. Most useful and easiest to work with port and network scanner.
