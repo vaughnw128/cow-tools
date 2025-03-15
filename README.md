@@ -24,6 +24,8 @@ Many of these tools are prebuilt into Kali, and will not need to be installed.
   > More calm scan: `$ nmap -sS 10.0.0.0`
   >
   > All ports: `$ nmap -sS 10.0.0.0 -p-`
+  >
+  > Quick UDP scan `$ nmap -sU 10.0.0.0 --max-rtt-timeout 500ms --initial-rtt-timeout 250ms --max-retries 2`
 - [Gobuster](https://github.com/OJ/gobuster) - Web app fuzzer, I get a crazy amount of use out of this one. Great for subdomain and dir enumeration.
   > Directory discovery: `$ gobuster dir --url http://site.htb --wordlist /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt`
   >
@@ -36,7 +38,7 @@ Many of these tools are prebuilt into Kali, and will not need to be installed.
 - [JWT.io](https://jwt.io) - JWT token parsing and decoding, great for finding token injection parameters or low RSA N values to crack.
 - [XSS Payload List](https://github.com/payloadbox/xss-payload-list) - Useful list of common XSS payloads.
 - [MITMProxy](https://mitmproxy.org/) - Easy HTTP proxy for port forwarding a localhost webserver.
-  > Simple reverse http proxy: `$ ./mitmproxy -p 9000 --mode reverse:http://localhost:8500`
+  > Simple reverse http proxy: `$ ./mitmproxy --mode reverse:http://localhost:<source-port>@<target-port>`
 - [Reverse Shell Generator](https://www.revshells.com/) - Easy way to get a shell made, has many options for style and encoding.
 - [Git Dumper](https://github.com/arthaud/git-dumper) - Easily dump git repos from the web
 
